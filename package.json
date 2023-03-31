@@ -8,8 +8,6 @@
   },
   "scripts": {
     "devStart": "nodemon server.js",
-    "start": "node ./server/server.js",
-    "build": "yarn build",
-    "postinstall": "npm run build"
+    "start": "node ./server/server.js"
   }
 }
