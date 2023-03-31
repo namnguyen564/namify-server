@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
     "start": "node server/server.js",
     "postinstall": "npm run build"
   },
