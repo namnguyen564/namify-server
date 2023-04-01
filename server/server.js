@@ -69,10 +69,10 @@ app.post("/login", (req, res) => {
 });
 
 //change
-app.listen(3001);
 
-// app.listen(process.env.PORT, () => {
-//   console.log(`Server is listening on port ${process.env.PORT}`);
-// });
+app.listen(process.env.PORT, () => {
+  console.log(`Server is listening on port ${process.env.PORT}`);
+});
 
 // "start": "node ./server/server.js"
+// "devStart": "nodemon server.js",
